@@ -1,5 +1,6 @@
 import React from "react";
 import "./RecipeCard.css";
+import store, { DELETE } from './../../store'
 
 let RecipeCard = props => {
   const {
